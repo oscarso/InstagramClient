@@ -10,3 +10,5 @@ Completed user stories:
 
  
 Walkthrough of all user stories:
+https://github.com/oscarso/InstagramClient/blob/master/CodePath_Android_InstagramPhotoViewer.gif
+
