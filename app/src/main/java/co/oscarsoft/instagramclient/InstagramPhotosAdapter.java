@@ -34,7 +34,7 @@ public class InstagramPhotosAdapter extends ArrayAdapter<InstagramPhoto> {
 
         tvCaption.setText(photo.caption);
         ivPhoto.setImageResource(0);//clear image
-        Picasso.with(getContext()).load(photo.imageUrl).into(ivPhoto);
+        Picasso.with(getContext()).load(photo.imageUrl).fit().centerInside().into(ivPhoto);
 
         return convertView;
     }
